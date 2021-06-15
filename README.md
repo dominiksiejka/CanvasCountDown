@@ -21,7 +21,7 @@ CanvasCountDown is an animation based on HTML Canvas with count down base od Dat
 
 ## How to use
 
--
+Just watch.
 
 ## Built with
 
