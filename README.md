@@ -2,7 +2,7 @@
 
 ## Demo
 
-[**click live demo of the project**](https://dominiksiejka.github.io/BillSplitterApp)
+[**click live demo of the project**](https://dominiksiejka.github.io/CanvasCountDown)
 
 ![CanvasCountDown preview](./src/assets/stars.jpg)
 
@@ -49,4 +49,4 @@ $ git clone https://github.com/dominiksiejka/CanvasCountDown.git
 
 ## License
 
-- MIT © [Dominik Siejka ](https://github.com/dominiksiejka/BillSplitterApp)
+- MIT © [Dominik Siejka ](https://github.com/dominiksiejka/CanvasCountDown)
