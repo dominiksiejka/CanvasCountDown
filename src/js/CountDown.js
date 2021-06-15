@@ -45,10 +45,8 @@ const countDown = () => {
       switch (item.id) {
         case "days":
           return (item.textContent = daysLeft);
-          break;
         case "hours":
           return (item.textContent = hoursLeft);
-          break;
         case "minutes":
           if (changeMinutes !== minutesLeft) {
             changeMinutes = minutesLeft;
@@ -57,10 +55,8 @@ const countDown = () => {
             item.classList.remove("change");
           }
           return (item.textContent = minutesLeft);
-          break;
         case "seconds":
           return (item.textContent = secondsLeft);
-          break;
         default:
           return;
       }
@@ -68,12 +64,6 @@ const countDown = () => {
   };
 
   setInterval(setCounter, 1000);
-
-  const letters = text.map((letter) => {
-    const span = document.createElement("span");
-    span.textContent = letter;
-    return span;
-  });
 
   const helperFunction = (e, firstclass, secondclass) => {
     if (e.target.classList.contains(firstclass)) {
@@ -83,13 +73,5 @@ const countDown = () => {
   const handleMouseOver = (e) => {
     helperFunction(e, "noactive", "active");
   };
-  letters.forEach((itm) => {
-    if (itm.innerHTML === " ") {
-      itm.style.padding = "10px";
-    }
-    itm.classList.add("noactive");
-    itm.addEventListener("mouseover", handleMouseOver);
-    messageDiv.appendChild(itm);
-  });
 };
 countDown();
