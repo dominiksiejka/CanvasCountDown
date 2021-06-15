@@ -1,6 +1,6 @@
 const countDown = () => {
   const liCounts = [...document.querySelectorAll(".count")];
-  const newDate = new Date(2021, 05, 10).getTime();
+  const newDate = new Date(2021, 11, 10).getTime();
   let changeMinutes;
 
   const handleCheckCalculations = (calculations) => {
